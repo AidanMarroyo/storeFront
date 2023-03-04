@@ -1,0 +1,14 @@
+.containerUi {
+	overflow: hidden;
+	display: grid;
+	height: 100vh;
+	width: auto;
+	justify-content: center;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: 1fr 1fr 0.2fr;
+	grid-template-areas:
+		'main main main'
+		'card card card'
+		'footer footer footer';
+	gap: 0.5rem;
+}
